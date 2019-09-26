@@ -1,0 +1,31 @@
+{
+  "name": "artpunzel-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanketd617/ArtPunzel.git"
+  },
+  "keywords": [
+    "art-punzel",
+    "art"
+  ],
+  "author": "Sanket Dahegaonkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanketd617/ArtPunzel/issues"
+  },
+  "homepage": "https://github.com/sanketd617/ArtPunzel#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0"
+  }
+}
