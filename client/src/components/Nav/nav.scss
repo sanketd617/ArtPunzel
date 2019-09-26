@@ -1,0 +1,65 @@
+@import "../../css/styles";
+@import "../../css/constants";
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+.nav-content {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+
+  & > * {
+    display: inline-block;
+    padding: 0.5rem;
+  }
+
+  .brand {
+    font-size: 1.5rem;
+    font-family: 'Kaushan Script', cursive;
+    flex-grow: 9;
+  }
+
+  .links {
+    z-index: -1;
+    position: absolute;
+    top: -200%;
+    left: 0;
+    width: 100%;
+    transition-timing-function: ease-in;
+    text-align: center;
+    display: block;
+    box-shadow: 0 1px 1px lightgray;
+    &.open {
+      top: $nav-small-height;
+    }
+
+    a {
+      display: block;
+      padding: 0.5rem;
+    }
+  }
+
+  .arrow {
+    right: 0;
+    flex-grow: 1;
+    text-align: center;
+
+    &.rotated {
+      transform: rotateX(180deg);
+    }
+  }
+
+  @media screen and (min-width: $sm){
+
+  }
+
+  @media screen and (min-width: $md){
+
+  }
+
+  @media screen and (min-width: $lg){
+
+  }
+
+}

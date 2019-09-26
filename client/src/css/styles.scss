@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300&display=swap');
+
+.abs {
+  position: absolute;
+}
+
+.rel {
+  position: relative;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Fira Sans', sans-serif;
+  transition-duration: 0.3s;
+}
+
+a {
+  color: #2196f3;
+}
