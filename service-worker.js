@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ArtPunzel/precache-manifest.99e3f937f2b9e1975f8d06c21ad81427.js"
+  "/ArtPunzel/precache-manifest.a65f12ce33c7ae093d19c08789561d1e.js"
 );
 
 self.addEventListener('message', (event) => {
