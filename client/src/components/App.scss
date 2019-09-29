@@ -7,6 +7,7 @@
   width: 100%;
   background: white;
   box-shadow: 0px 1px 2px lightgray;
+  z-index: 2;
 
   &.opened {
     box-shadow: none;
@@ -25,4 +26,9 @@
 
   }
 
+}
+
+.main {
+  height: 100vh;
+  overflow: scroll;
 }

@@ -1,0 +1,9 @@
+@import "../../css/constants";
+
+.categories {
+  position: relative;
+  top: $nav-xsmall-height;
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+}

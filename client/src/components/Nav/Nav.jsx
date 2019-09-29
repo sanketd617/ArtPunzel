@@ -41,8 +41,8 @@ class Nav extends React.Component {
                             Follow us on
                         </div>
                         <div className="social-btns">
-                            <FontAwesomeIcon icon={['fab', 'facebook']} size="2x" />
-                            <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" />
+                            <a href="#"> <FontAwesomeIcon icon={['fab', 'facebook']} size="2x" /> </a>
+                            <a href="#"> <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" /> </a>
                         </div>
                     </div>
 
@@ -53,19 +53,19 @@ class Nav extends React.Component {
                         </div>
                         <div className="social-links">
                             <a href="#">
-                                <FontAwesomeIcon icon={['fab', 'linkedin']} /> sanketd617
+                                <FontAwesomeIcon icon={['fab', 'linkedin']} size="lg" />
                             </a>
                             <a href="#">
-                                <FontAwesomeIcon icon={['fab', 'github']} /> sanketd617
+                                <FontAwesomeIcon icon={['fab', 'github']} size="lg" />
                             </a>
                             <a href="#">
-                                <FontAwesomeIcon icon={['fab', 'gitlab']} /> sanketd617
+                                <FontAwesomeIcon icon={['fab', 'gitlab']} size="lg" />
                             </a>
                             <a href="#">
-                                <FontAwesomeIcon icon={['fab', 'facebook']} /> sanketdgreat
+                                <FontAwesomeIcon icon={['fab', 'facebook']} size="lg" />
                             </a>
                             <a href="#">
-                                <FontAwesomeIcon icon={['fab', 'hackerrank']} /> dsanket617
+                                <FontAwesomeIcon icon={['fab', 'hackerrank']} size="lg" />
                             </a>
                         </div>
                     </div>

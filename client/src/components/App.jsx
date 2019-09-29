@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Nav from "./Nav/Nav";
+import Categories from "./Categories/Categories";
 import {connect} from "react-redux";
 import {toggleNavAction} from "../actions/navActions";
 
@@ -12,7 +13,7 @@ class App extends React.Component {
                   <Nav />
               </div>
               <div className="main">
-
+                  <Categories></Categories>
               </div>
           </div>
       );

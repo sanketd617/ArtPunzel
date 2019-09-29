@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   padding: 1rem;
+  background: white;
 
   & > * {
     display: inline-block;
@@ -32,6 +33,8 @@
     box-shadow: 0 1px 1px lightgray;
     transition-duration: 0.5s;
     transform: translateY(-100%);
+    background: white;
+
     &.open {
       transform: translateY(0);
     }
@@ -50,6 +53,7 @@
 
       .social-btns > * {
         margin: 0.5rem;
+        display: inline-block;
       }
     }
 
@@ -69,6 +73,8 @@
         a {
           font-size: 1rem;
           padding: 0.25rem;
+          display: inline-block;
+          margin: 0.5rem;
         }
       }
     }
