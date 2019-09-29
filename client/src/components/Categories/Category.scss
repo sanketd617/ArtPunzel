@@ -1,16 +1,28 @@
-
+@import "../../css/constants";
 
 .category {
   overflow: hidden;
   width: 100%;
   box-shadow: 0 1px 1px lightgrey;
   margin-top: 1rem;
+  cursor: pointer;
+  border: 2px solid transparent;
+
+  &:hover {
+    border-color: #2196f3;
+
+    .content .image img {
+      transform: scale(1.2);
+    }
+  }
+
   .content {
     position: relative;
     .image {
       position: relative;
       display: inline-block;
       text-align: center;
+      overflow: hidden;
       img {
         width: 100%;
         border-radius: 0.25rem;
@@ -20,6 +32,22 @@
     .title {
       padding: 0.25rem;
       text-align: center;
+      font-weight: bold;
     }
+  }
+
+  @media screen and (min-width: $sm){
+    width: $category-card-small-width;
+    display: inline-block;
+    margin: $category-card-small-margin;
+  }
+
+  @media screen and (min-width: $md){
+    width: $category-card-large-width;
+    margin: $category-card-large-margin;
+  }
+
+  @media screen and (min-width: $lg){
+
   }
 }

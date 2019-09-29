@@ -6,4 +6,16 @@
   width: 100%;
   padding: 1rem;
   overflow: hidden;
+
+  @media screen and (min-width: $sm){
+    //width: calc(100% - $nav-small-width);
+  }
+
+  @media screen and (min-width: $md){
+
+  }
+
+  @media screen and (min-width: $lg){
+
+  }
 }

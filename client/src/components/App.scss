@@ -31,4 +31,17 @@
 .main {
   height: 100vh;
   overflow: scroll;
+
+  @media screen and (min-width: $sm){
+    position: absolute;
+    left: $nav-small-width;
+  }
+
+  @media screen and (min-width: $md){
+    left: $nav-medium-width;
+  }
+
+  @media screen and (min-width: $lg){
+
+  }
 }
