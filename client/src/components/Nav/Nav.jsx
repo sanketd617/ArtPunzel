@@ -13,6 +13,8 @@ import {
     faInstagram,
     faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
+import Category from "../Categories/Category";
+import {Link} from "react-router-dom";
 
 fontawesome.library.add(
     faChevronDown, faFacebook, faInstagram,
@@ -30,11 +32,18 @@ class Nav extends React.Component {
                     <FontAwesomeIcon icon="chevron-down"/>
                 </div>
                 <div className={ 'links ' + (this.props.isOpen ? 'open' : '') }>
-                    <a href="#">Home</a>
-                    <a href="#">Singles</a>
-                    <a href="#">Couples</a>
-                    <a href="#">Black & White</a>
-                    <a href="#">Miscellaneous</a>
+                    <Link to="/">
+                        Home
+                    </Link>
+                    {
+                        this.props.categories.map((category, index) => {
+                           return (
+                               <Link to={category.link} key={index}>
+                                   { category.title }
+                               </Link>
+                           )
+                        })
+                    }
 
                     <div className="social">
                         <div className="title">

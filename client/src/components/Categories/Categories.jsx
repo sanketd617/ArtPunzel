@@ -1,18 +1,22 @@
 import React from "react";
 import './Categories.scss'
 import Category from "./Category";
-
+import { Link } from "react-router-dom";
 class Categories extends React.Component {
 
 
     render() {
         return (
             <div className="categories">
-                <Category title="All" image="one.jpg"/>
-                <Category title="Singles" image="two.jpg"/>
-                <Category title="Couples" image="three.jpg"/>
-                <Category title="Miscellaneous" image="four.jpg"/>
-                <Category title="Black & White" image="seven.jpg"/>
+                {
+                    this.props.categories.map((category, index) => {
+                        return (
+                            <Link to={'/gallery/' + category.link} key={index}>
+                                <Category title={category.title} image={category.image} />
+                            </Link>
+                        );
+                    })
+                }
             </div>
         );
     }

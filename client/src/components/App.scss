@@ -31,10 +31,11 @@
 .main {
   height: 100vh;
   overflow: scroll;
-
+  width: 100%;
   @media screen and (min-width: $sm){
     position: absolute;
     left: $nav-small-width;
+    width: calc(100% - #{$nav-small-width});
   }
 
   @media screen and (min-width: $md){

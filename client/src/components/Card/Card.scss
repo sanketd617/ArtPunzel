@@ -1,0 +1,29 @@
+@import "../../css/constants";
+.card {
+  width: calc(100% - #{$category-card-small-margin});
+  margin: $category-card-small-margin;
+  margin-bottom: calc(#{$category-card-small-margin} + 0.5rem);
+  .image {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .action {
+    padding: 0.25rem 1rem;
+    float: right;
+  }
+
+  @media screen and (min-width: $sm){
+    display: inline-block;
+    width: calc(50% - #{2*$category-card-small-margin});
+  }
+
+  @media screen and (min-width: $md){
+    width: calc(33% - #{3*$category-card-small-margin});
+  }
+
+  @media screen and (min-width: $lg){
+
+  }
+}
