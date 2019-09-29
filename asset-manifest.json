@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ArtPunzel/static/css/main.fb6ed517.chunk.css",
-    "main.js": "/ArtPunzel/static/js/main.c5f321f0.chunk.js",
-    "main.js.map": "/ArtPunzel/static/js/main.c5f321f0.chunk.js.map",
+    "main.css": "/ArtPunzel/static/css/main.b26da2d6.chunk.css",
+    "main.js": "/ArtPunzel/static/js/main.93c551a7.chunk.js",
+    "main.js.map": "/ArtPunzel/static/js/main.93c551a7.chunk.js.map",
     "runtime-main.js": "/ArtPunzel/static/js/runtime-main.497bf08a.js",
     "runtime-main.js.map": "/ArtPunzel/static/js/runtime-main.497bf08a.js.map",
     "static/css/2.2293e93a.chunk.css": "/ArtPunzel/static/css/2.2293e93a.chunk.css",
-    "static/js/2.068d6b31.chunk.js": "/ArtPunzel/static/js/2.068d6b31.chunk.js",
-    "static/js/2.068d6b31.chunk.js.map": "/ArtPunzel/static/js/2.068d6b31.chunk.js.map",
+    "static/js/2.4ce8e440.chunk.js": "/ArtPunzel/static/js/2.4ce8e440.chunk.js",
+    "static/js/2.4ce8e440.chunk.js.map": "/ArtPunzel/static/js/2.4ce8e440.chunk.js.map",
     "index.html": "/ArtPunzel/index.html",
-    "precache-manifest.a65f12ce33c7ae093d19c08789561d1e.js": "/ArtPunzel/precache-manifest.a65f12ce33c7ae093d19c08789561d1e.js",
+    "precache-manifest.67e75ef4fa0e921f5237a6e6ec175ef8.js": "/ArtPunzel/precache-manifest.67e75ef4fa0e921f5237a6e6ec175ef8.js",
     "service-worker.js": "/ArtPunzel/service-worker.js",
     "static/css/2.2293e93a.chunk.css.map": "/ArtPunzel/static/css/2.2293e93a.chunk.css.map",
-    "static/css/main.fb6ed517.chunk.css.map": "/ArtPunzel/static/css/main.fb6ed517.chunk.css.map",
+    "static/css/main.b26da2d6.chunk.css.map": "/ArtPunzel/static/css/main.b26da2d6.chunk.css.map",
     "static/media/index.css": "/ArtPunzel/static/media/roboto-latin-900italic.ebf6d164.woff2"
   }
 }
