@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b3075f8154ddf55fd05d9d8141eafb1",
+    "revision": "13c378fe0c394e8a783323465b4adfdd",
     "url": "/ArtPunzel/index.html"
   },
   {
-    "revision": "c95de75444753d77fd9a",
+    "revision": "90be4dc75166d377d4d8",
     "url": "/ArtPunzel/static/css/2.2293e93a.chunk.css"
   },
   {
-    "revision": "66b0ef5211f6aa1b05cb",
-    "url": "/ArtPunzel/static/css/main.b26da2d6.chunk.css"
+    "revision": "93f352d95f23a6a75bcc",
+    "url": "/ArtPunzel/static/css/main.5b7155af.chunk.css"
   },
   {
-    "revision": "c95de75444753d77fd9a",
-    "url": "/ArtPunzel/static/js/2.4ce8e440.chunk.js"
+    "revision": "90be4dc75166d377d4d8",
+    "url": "/ArtPunzel/static/js/2.cd311ad1.chunk.js"
   },
   {
-    "revision": "66b0ef5211f6aa1b05cb",
-    "url": "/ArtPunzel/static/js/main.93c551a7.chunk.js"
+    "revision": "93f352d95f23a6a75bcc",
+    "url": "/ArtPunzel/static/js/main.d3d0ab24.chunk.js"
   },
   {
     "revision": "2c173478bed0f60ff026",
